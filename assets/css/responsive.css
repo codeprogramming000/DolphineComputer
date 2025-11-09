@@ -1,0 +1,365 @@
+ @media (max-width: 991px) {
+     .offcanvas-start {
+         width: 50% !important;
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+
+     .heading-text {
+         margin: 34px 0 3px 0;
+         font-size: 38px;
+         font-family: 'Manrope', sans-serif;
+         font-weight: 700;
+         text-align: center;
+         letter-spacing: -2px;
+     }
+
+     .heading-p {
+         font-size: 12px;
+         font-family: 'Manrope', sans-serif;
+         font-weight: 400;
+         text-align: center;
+     }
+
+     .custom-navbar {
+         padding: 0;
+     }
+
+     .explore-btn {
+         align-items: center;
+         margin: 4px auto;
+         margin-left: 73px;
+         padding: 3px 8px;
+         font-size: 14px;
+         font-weight: 500;
+         background-color: #fff;
+         border: 1px solid #b2d3f8;
+         border-radius: 50px;
+     }
+
+
+     .explore-btn i {
+         font-size: 8px;
+         text-align: center;
+         margin-left: 3px;
+         transition: transform 0.3s ease;
+     }
+
+     .partner-logox {
+         justify-content: center;
+     }
+
+     .header-image {
+         width: 100%;
+         height: 320px;
+         border-radius: 20px;
+         margin: 0 30px;
+         background: transparent;
+         display: block;
+     }
+
+     .learn-more {
+         margin: 10px -70px;
+         padding: 10px 20px;
+         font-size: 16px;
+         font-weight: 500;
+         text-decoration: none;
+         color: #fff;
+         background: linear-gradient(90deg, #024291, #007AC3);
+         border: none;
+         border-radius: 50px;
+         cursor: pointer;
+         box-shadow: 0 4px 10px rgba(0, 120, 255, 0.3);
+         transition: all 0.3s ease;
+     }
+
+     .iconOne {
+         width: 70px;
+         position: absolute;
+         top: 28px;
+         left: 285px;
+     }
+
+     .iconTwo {
+         width: 29px;
+         position: absolute;
+         top: 90px;
+         left: 134px;
+     }
+
+     .iconThree {
+         width: 33px;
+         position: absolute;
+         top: 112px;
+         left: 324px;
+
+     }
+
+     .iconFour {
+         display: none;
+
+     }
+
+     .iconFive {
+         width: 34px;
+         position: absolute;
+
+         top: 190px;
+         left: 60px;
+
+     }
+
+     .icontext {
+         width: 145px;
+         position: absolute;
+         top: 2px;
+         left: 17px;
+         transform: rotate(-45deg);
+     }
+
+     .whyDolpin-text p {
+         font-size: 14px;
+         color: #FFFFFF;
+         text-align: center;
+         font-family: 'Inter', sans-serif;
+         font-weight: 400;
+     }
+
+     .text-service {
+         margin-top: 5px;
+         font-size: 31px;
+         font-weight: 600;
+         text-align: center;
+         font-family: 'Manrope', sans-serif;
+         font-weight: 700;
+     }
+
+     .text-service-sub {
+         margin-top: 2px;
+         font-size: 10px;
+         text-align: center;
+         font-family: "Inter", sans-serif;
+         font-weight: 400;
+     }
+
+     .businessrelationship {
+         margin: 28px 0;
+         font-size: 26px;
+         font-family: 'Manrope', sans-serif;
+         font-weight: 700;
+         color: #fff;
+     }
+
+     .businessrelationshipx {
+         margin: 5px 0;
+         font-size: 13px;
+         font-family: 'Inter', sans-serif;
+         font-weight: 400;
+         color: #687494;
+     }
+
+
+     .price {
+         color: #747474;
+         font-weight: 600;
+         font-size: 15px;
+     }
+
+     .gst {
+         color: #666;
+         font-size: 13px;
+     }
+
+
+     .products-section h2 {
+         margin-bottom: 50px;
+         font-family: 'Manrope', sans-serif;
+         font-weight: 600;
+         font-size: 32px;
+         text-align: center;
+         font-style: bold;
+
+     }
+
+     .whyDolpin-textx {
+         margin-top: 30px;
+         font-size: 26px;
+         font-family: 'Manrope', sans-serif;
+         font-style: bold;
+         font-weight: 700;
+     }
+
+     .whyDolpin-text p {
+         font-size: 13px;
+         margin: 8px 0 40px 0;
+         color: #FFFFFF;
+         text-align: center;
+         font-family: 'Inter', sans-serif;
+         font-weight: 400;
+     }
+
+     .client-section h2 {
+         font-size: 28px;
+     }
+
+     .product-cardy img {
+         width: 46%;
+         margin: 0 auto;
+         height: 170px;
+     }
+
+     .software {
+         background-color: #248bf1;
+         width: 100%;
+     }
+
+     .software h3 {
+         font-size: 23px;
+         padding-top: 54px;
+         text-align: center;
+     }
+
+     .software p {
+         font-size: 10px;
+         padding-top: 17px;
+         text-align: center;
+
+     }
+
+     .software img {
+         width: 85%;
+         margin: 30px auto -22px 30px;
+     }
+
+     .hardware {
+         background-color: #248bf1;
+         width: 100%;
+     }
+
+     .hardware h3 {
+         font-size: 23px;
+         padding-top: 54px;
+         text-align: center;
+     }
+
+     .hardware p {
+         font-size: 10px;
+         padding-top: 17px;
+         text-align: center;
+
+     }
+
+     .hardware img {
+         width: 85%;
+         margin: 30px auto -22px 30px;
+     }
+
+     .LatestBlog h3 {
+         font-size: 39px;
+         padding: 40px;
+     }
+
+     .bg-athens h3 {
+         font-size: 32px;
+         margin-top: 60px;
+         padding-top: 4px;
+         padding-bottom: 10px;
+         letter-spacing: -6;
+     }
+
+     .relationship {
+         margin: 0px auto;
+     }
+
+
+
+
+ 
+
+
+
+     .dolphin-about h2 {
+         font-size: 32px;
+     }
+
+     .dolphin-about p {
+         width: 90%;
+         font-size: 15px;
+     }
+
+     .dolphin-big-text {
+         font-size: 80px;
+     }
+ 
+     .dolphin-about {
+         padding: 80px 0 40px;
+     }
+
+     .dolphin-about h2 {
+         font-size: 28px;
+     }
+
+     .dolphin-about p {
+         width: 95%;
+         font-size: 14px;
+     }
+
+     .dolphin-newsletter input {
+         width: 90%;
+         margin-bottom: 10px;
+     }
+
+     .dolphin-newsletter button {
+         width: 60%;
+         margin-left: 0;
+     }
+
+     .dolphin-big-text {
+         font-size: 60px;
+     }
+ 
+
+     .dolphin-footer h5 {
+         font-size: 16px;
+     }
+
+     .dolphin-footer ul li {
+         font-size: 14px;
+     }
+
+     .dolphin-big-text {
+         font-size: 48px;
+     }
+
+     .dolphin-about p {
+         font-size: 13px;
+     }
+ 
+
+ .dolphin-footer-bottom .d-flex {
+     flex-direction: column;
+     text-align: center;
+ }
+
+ .dolphin-payment-icons img {
+     width: 40px;
+ }
+
+ .dolphin-big-text {
+     font-size: 22px;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+}
