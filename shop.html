@@ -6,161 +6,157 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dolphin IT Solutions</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
-    .containerx {
-      width: 99%;
-      margin: 0 auto;
-    }
-    .bgImage {
-      background: url('hello.jpg') no-repeat ;
-      background-size: contain;
-      height: 500px;
-  margin: 10px auto;
-    }
-
-/* Navbar */
-.custom-navbar {
-  background: #fff;
-  border-radius: 50px;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-}
-
-.navbar-nav .nav-link {
-  color: #0b1a33;
-  font-weight: 500;
-  margin: 0 10px;
-  transition: 0.3s;
-}
-
-.navbar-nav .nav-link:hover {
-  color: #007bff;
-}
-
-.search-box {
-  border: 1px solid #e3e7ee;
-  background: #f8fafc;
-  height: 42px;
-  transition: 0.3s;
-}
-
-.search-box input {
-  width: 120px;
-  font-size: 14px;
-}
-
-.search-box i {
-  font-size: 10px;
-  color: #333;
-}
-
-.btn-call {
-  background: linear-gradient(90deg, #0078ff, #005ce6);
-  color: #fff;
-  font-weight: 500;
-  box-shadow: 0 4px 10px rgba(0,120,255,0.3);
-  transition: all 0.3s ease;
-}
-
-.btn-call:hover {
-  background: linear-gradient(90deg, #005ce6, #003cb3);
-  transform: translateY(-2px);
-}
-
-.btn-call i {
-  background: #fff;
-  color: #0078ff;
-  border-radius: 50%;
-  padding: 4px;
-  font-size: 14px;
-}
-
-  </style>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/shop.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
 
 <body>
-
-  <header class="containerx">
-   <div class="bgImage">
-    <div class="container">
+<div class="mmmmm">
+  <header class="HeaderImage">
+    <div class="container pt-4">
       <nav class="navbar navbar-expand-lg navbar-light custom-navbar">
-    <div class="container ">
-      <!-- Logo -->
-      <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="https://i.ibb.co/XZmFr7y/logo.png" alt="Dolphin Logo" height="35" class="me-2">
-        <span class="fw-semibold text-primary fs-6">olphin </span>
-      </a>
+        <div class="container">
+          <!-- Logo -->
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="assets/icon/headerLogo.png" alt="Dolphin Logo" height="35" class="me-2">
+          </a>
 
-      <!-- Toggler -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+          <!-- Toggler -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <!-- Nav Menu -->
-      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-        <ul class="navbar-nav mb-2 mb-lg-0">
-          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Services</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Service 1</a></li>
-              <li><a class="dropdown-item" href="#">Service 2</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Shop</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Product 1</a></li>
-              <li><a class="dropdown-item" href="#">Product 2</a></li>
-            </ul>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Software Type</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Windows</a></li>
-              <li><a class="dropdown-item" href="#">Mac</a></li>
-            </ul>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="#">Blogs</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
-        </ul>
-      </div>
+          <!-- Offcanvas Menu -->
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="mobileMenu">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title">Menu</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav ms-auto ">
+                <li class="nav-item"><a class="nav-link active fs-5 px-2" href="#">Home</a></li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fs-5 px-2" href="#" data-bs-toggle="dropdown">Services</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Service 1</a></li>
+                    <li><a class="dropdown-item" href="#">Service 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle px-2 fs-5" href="#" data-bs-toggle="dropdown">Shop</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Product 1</a></li>
+                    <li><a class="dropdown-item" href="#">Product 2</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle fs-5 px-2" href="#" data-bs-toggle="dropdown">Software Type</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Windows</a></li>
+                    <li><a class="dropdown-item" href="#">Mac</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item fs-5 px-2"><a class="nav-link" href="#">Blogs</a></li>
+                <li class="nav-item fs-5 px-2"><a class="nav-link" href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
 
-      <!-- Search + Call Button -->
-      <div class="d-flex align-items-center gap-3">
-        <div class="search-box d-flex align-items-center px-3 rounded-pill">
-          <input type="text" class="form-control border-0 bg-transparent shadow-none" placeholder="Search">
-          <i class="bi bi-search"></i>
+          <!-- Desktop Search + Call Button -->
+          <div class="d-none d-lg-flex align-items-center gap-3">
+            <div class="search-box d-flex align-items-center px-3 rounded-pill">
+              <input type="text" class="form-control border-0 bg-transparent shadow-none" placeholder="Search">
+              <i class="bi bi-search"></i>
+            </div>
+
+            <a href="tel:+919810020379" class="btn btn-call rounded-pill d-flex align-items-center gap-2">
+              +919810079
+              <i class="bi bi-arrow-up-right"></i>
+            </a>
+          </div>
         </div>
-
-        <a href="tel:+919810020379" class="btn btn-call rounded-pill px-4 d-flex align-items-center gap-2">
-          +919810020379
-          <i class="bi bi-arrow-up-right"></i>
-        </a>
-      </div>
+      </nav>
     </div>
-  </nav>
-
-      <div class="hero">
-        <h1>items will appear in a single horizontal <br>
-          row instead of stacked vertically <br>
-          <span class="text-primary">and the bullets will be hidden.</span>
-        </h1>
-      </div>
-    </div>
-   </div>
   </header>
 
+</div>
+
+  <section class="product-wrap bg-athens pt-100 pb-75 md-none">
+    <div class="container">
+      <div class="owl-carousel product-slider">
+        <div class="product-card">
+          <img src="assets/icon/banar1.png" alt="banar4 2">
+        </div>
+        <div class="product-card ">
+          <img class="banar" src="assets/icon/banar2.png" alt="banar4">
+        </div>
+        <div class="product-card">
+          <img src="assets/icon/banar3.png" alt="banar4">
+        </div>
+        <div class="product-card">
+          <img src="assets/icon/banar4.png" alt="banar4">
+        </div>
+        <div class="product-card">
+          <img src="assets/icon/banar5.png" alt="banar4">
+        </div>
+        <div class="product-card">
+          <img src="assets/icon/banar2.png" alt="banar4">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <!-- jQuery + Owl Carousel JS & CSS -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+  <!-- Bootstrap JS + Icons -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+
+  <!-- Owl Carousel Initializations -->
+  <script>
+    $(document).ready(function () {
+
+      // Product Slider
+      $(".product-slider").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        margin: 15,
+        responsive: {
+          0: { items: 1 },
+          576: { items: 3 },
+          768: { items: 4 },
+          992: { items: 5 }
+        }
+      });
+
+      // Product Slider X
+      $(".product-sliderx").owlCarousel({
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 4000,
+        margin: 15,
+        responsive: {
+          0: { items: 1 },
+          576: { items: 2 },
+          768: { items: 2 },
+          992: { items: 3 }
+        }
+      });
+
+    });
+  </script>
+
 </body>
 
 </html>
