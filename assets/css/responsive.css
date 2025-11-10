@@ -91,8 +91,8 @@
      .iconThree {
          width: 33px;
          position: absolute;
-         top: 112px;
-         left: 324px;
+         top: 104px;
+         left: 315px;
 
      }
 
@@ -275,7 +275,7 @@
 
 
 
- 
+
 
 
 
@@ -291,7 +291,7 @@
      .dolphin-big-text {
          font-size: 80px;
      }
- 
+
      .dolphin-about {
          padding: 80px 0 40px;
      }
@@ -318,7 +318,7 @@
      .dolphin-big-text {
          font-size: 60px;
      }
- 
+
 
      .dolphin-footer h5 {
          font-size: 16px;
@@ -335,31 +335,31 @@
      .dolphin-about p {
          font-size: 13px;
      }
- 
 
- .dolphin-footer-bottom .d-flex {
-     flex-direction: column;
-     text-align: center;
+
+     .dolphin-footer-bottom .d-flex {
+         flex-direction: column;
+         text-align: center;
+     }
+
+     .dolphin-payment-icons img {
+         width: 40px;
+     }
+
+     .dolphin-big-text {
+         font-size: 22px;
+     }
+
+
+
+
+
+
+
+
+
+
+
+
+
  }
-
- .dolphin-payment-icons img {
-     width: 40px;
- }
-
- .dolphin-big-text {
-     font-size: 22px;
- }
-
-
-
-
-
-
-
-
-
-
-
-
- 
-}
